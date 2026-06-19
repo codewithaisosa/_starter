@@ -1,0 +1,117 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/geist-mono-v6-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v20-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v20-latin-600.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v20-latin-700.woff2') format('woff2');
+}
+
+:root {
+  /* ================== TYPOGRAPHY — Font Families  ================== */
+  --font-family-base: 'Inter', system-ui, sans-serif;
+  --font-family-heading: 'Inter', system-ui, sans-serif;
+  --font-family-mono: 'Geist Mono', 'Courier New', monospace;
+
+  /* ==================
+     TYPOGRAPHY — Font Sizes (fluid)
+     clamp(min, preferred, max)
+     All values in rem (1rem = 10px)
+  ================== */
+
+
+  /* ================== TYPOGRAPHY — Font Weights ================== */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* ================== TYPOGRAPHY — Line Heights ================== */
+  --line-height-tight: 1.2;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.75;
+
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+
+  /* ==================
+     SPACING (fluid)
+     clamp(min, preferred, max)
+  ================== */
+  --space-1: clamp(0.4rem, 0.6667vw + 0.2667rem, 0.8rem);
+  --space-2: clamp(0.8rem, 0.6667vw + 0.6667rem, 1.2rem);
+  --space-3: clamp(1.2rem, 0.6667vw + 1.0667rem, 1.6rem);
+  --space-4: clamp(1.6rem, 1.3333vw + 1.3333rem, 2.4rem);
+  --space-6: clamp(2.4rem, 1.3333vw + 2.1333rem, 3.2rem);
+  --space-8: clamp(3.2rem, 2.6667vw + 2.6667rem, 4.8rem);
+  --space-12: clamp(4.8rem, 2.6667vw + 4.2667rem, 6.4rem);
+  --space-16: clamp(6.4rem, 5.3333vw + 5.3333rem, 9.6rem);
+  --space-24: clamp(9.6rem, 5.3333vw + 8.5333rem, 12.8rem);
+
+  /* ================== Z-INDEX ================== */
+  --z-index-below: -1;
+  --z-index-base: 0;
+  --z-index-raised: 10;
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-overlay: 300;
+  --z-index-modal: 400;
+  --z-index-toast: 500;
+  --z-index-tooltip: 600;
+
+  /* ================== BORDER RADIUS ================== */
+  --border-radius-xs: 0.2rem;
+  --border-radius-small: 0.4rem;
+  --border-radius-medium: 0.8rem;
+  --border-radius-large: 1.6rem;
+  --border-radius-xl: 2.4rem;
+  --border-radius-2xl: 3.2rem;
+  --border-radius-3xl: 9999px;
+
+  /* ================== LAYOUT ================== */
+  --container-padding: var(--space-4);
+  --container-small: 64rem;
+  --container-medium: 96rem;
+  --container-large: 120rem;
+  --container-extra-large: 144rem;
+
+  --gap-small: clamp(1.2rem, 1.3333vw + 0.9333rem, 2rem);
+  --gap-medium: clamp(2rem, 2vw + 1.6rem, 3.2rem);
+  --gap-large: clamp(3.2rem, 5.3333vw + 2.1333rem, 6.4rem);
+
+  /* ================== TRANSITIONS ================== */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+  --transition-bounce: 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ================== DARK MODE ================== */
+/* [data-theme="dark"] {
+
+} */
