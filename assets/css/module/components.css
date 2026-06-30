@@ -1,0 +1,19 @@
+.container {
+  margin-inline: auto;
+  padding-block: var(--container-padding);
+  width: min(100% - var(--padding-xl), var(--container-content));
+}
+
+/* size modifiers */
+.container[data-size="narrow"] {
+  width: min(100% - var(--padding-xl), var(--container-narrow));
+}
+.container[data-size="reading"] {
+  width: min(100% - var(--padding-xl), var(--container-reading));
+}
+.container[data-size="wide"] {
+  width: min(100% - var(--padding-xl), var(--container-wide));
+}
+.container[data-size="ultrawide"] {
+  width: min(100% - var(--padding-xl), var(--container-ultrawide));
+}

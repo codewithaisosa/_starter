@@ -1,0 +1,7 @@
+@layer token, reset, base, components, utilities;
+
+@import url(./module/token.css) layer(token);
+@import url(./module/reset.css) layer(reset);
+@import url(./module/base.css) layer(base);
+@import url(./module/components.css) layer(components);
+@import url(./module/utilities.css) layer(utilities);

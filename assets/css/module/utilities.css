@@ -1,0 +1,36 @@
+/* ================== FONT WEIGHT ================== */
+.font-regular {
+  font-weight: 400;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+/* ================== TEXT TRANSFORM ================== */
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* ================== TEXT ALIGN ================== */
+.text-center {
+  text-align: center;
+}
+
+/* ================== ACCESSIBILITY ================== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
